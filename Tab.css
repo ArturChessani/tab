@@ -2,11 +2,20 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 #table {
-  border-collapse: collapse;
+  border: 1px solid black;
+  /* border-collapse: collapse; */ 
+
+  overflow: hidden;
+
   width: 1000px;
   height: 400px;
-  /* border-radius: 30px; */
+  
+  margin: auto;
 }
 
 td {
@@ -70,23 +79,9 @@ div {
   text-align: left;
 }
 
-/* #table thead tr + td:first-child { */
+#table thead tr > td:first-child {
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #table a {
   text-transform: uppercase;
@@ -98,7 +93,3 @@ div {
   padding: 5px 10px;
 }
 
-
-
-background-color: #dbdbdb;
-background-color: #f3f3f3;
