@@ -22,23 +22,23 @@ div {
 }
 
 #table thead td:first-child {
-  background-color: #939baf;
+  background-color: #7887ab;
 }
 
 #table thead td:nth-child(2) {
-  background-color: #6174a3;
+  background-color: #4f628e;
 }
 
 #table thead td:nth-child(3) {
-  background-color: #506499;
+  background-color: #2e4172;
 }
 
 #table thead td:nth-child(4) {
-  background-color: #40568b;
+  background-color: #162955;
 }
 
 #table thead td:nth-child(5) {
-  background-color: #121e3f;
+  background-color: #061539;
 }
 
 
